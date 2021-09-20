@@ -1,2 +1,2 @@
 # MyWebsite
-this is about the history of my own website!
+this is my own website!

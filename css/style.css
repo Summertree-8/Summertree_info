@@ -41,17 +41,41 @@ header{
     margin: 0 auto;
 }
 
+.header-box{
+    background: rgba(255, 255, 255, .8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: all 0.25s ease-out;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.clearfix {
+    display: block;
+}
+
+.logo{
+    color: #aa8b5f;
+}
+
 .logo{
     float: left;
     margin-top: 20px;
     font-size: 60px;
     font-family: 'Bitter', serif;
-    color: #ffffff;
+    color: #aa8b5f;
     text-shadow: 5px 5px 3px #000000;
 }
 
 .logo a{
-    color: #ffffff;
+    color: #aa8b5f;
 }
 
 .global-nav{
@@ -64,17 +88,25 @@ header{
     margin: 0 20px;
     font-size: 20px;
     list-style: none;
+    color: #aa8b5f;
 }
 
 .global-nav li a{
-    color: #ffffff;
+    color: #aa8b5f;
 }
 
 .global-nav li a:hover{
-    border-bottom: 2px solid #ffffff;
+    border-bottom: 2px solid #aa8b5f;
     padding-bottom: 3px;
     text-decoration: none;
     font-family: 'Bitter', serif;
+}
+
+.borders {
+    border-top: 1px solid #aa8b5f;
+    border-bottom: 1px solid #aa8b5f;
+    margin-top: 6px;
+    padding-top: 2px;
 }
 
 #wrap {
@@ -95,6 +127,31 @@ footer{
     padding: 20px 0;
     background-color: #767671;
 }
+
+.introduction{
+    color: #aa8b5f;
+    font-size: 50px;
+    text-align: center;
+}
+
+.contact-nav{
+    width: 40px;
+    float: center;
+    margin-bottom: 30px;
+}
+
+.contact-nav li{
+    float: left;
+    margin: 0 20px;
+    list-style: none;
+}
+
+/* .contact-nav li a:hover{
+    border-bottom: 2px solid #aa8b5f;
+    padding-bottom: 3px;
+    text-decoration: none;
+    font-family: 'Bitter', serif;
+} */
 
 footer small{
     font-size: 12px;
@@ -141,7 +198,7 @@ footer small{
 #index footer{
     width: 960px;
     margin: 150px auto 0 auto;
-    text-align: left;
+    text-align: center;
     background-color: transparent;
 }
 
@@ -418,10 +475,6 @@ a img:hover{
     text-shadow: 3px 3px 3px #000000;
 }
 
-.global-nav li a{
-    color: #ffffff;
-}
-
 .global-nav li a:hover{
     border-bottom: 2px solid #ffffff;
     padding-bottom: 3px;
@@ -442,7 +495,7 @@ a img:hover{
     margin: 0 auto;
 }
 
-footer{
+/* footer{
     text-align: center;
     color: #ffffff;
     padding: 20px 0;
@@ -450,7 +503,7 @@ footer{
 }
 footer small{
     font-size: 12px;
-}
+} */
 #profile {
     background-image: url(../images/IMG_header_edit2.jpg);
     background-repeat: no-repeat;

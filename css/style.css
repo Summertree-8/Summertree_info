@@ -144,10 +144,12 @@ footer{
     list-style: none;
     overflow: hidden;
     padding-left: 560px;
+    /* width: 960px; */
+    /* margin: 0 auto; */
+    text-align: center;
 }
 
 #contact-nav li{
-    text-align: center;
     float: left;
     margin: 0px 20px;
 }
@@ -480,7 +482,7 @@ a img:hover{
 }
 
 .global-nav li a:hover{
-    border-bottom: 2px solid #ffffff;
+    border-bottom: 2px solid #aa8b5f;
     padding-bottom: 3px;
     text-decoration: none;
     font-family: 'Bitter', serif;

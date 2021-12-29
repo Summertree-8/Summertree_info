@@ -109,11 +109,16 @@ header{
     padding-top: 3px;
 }
 
-#wrap {
+footer .borders{
+    margin: 10px;
+}
+
+#index #wrap {
     clear: both;
-    background-color: #ffffff;
-    margin-top: 220px;
-    padding: 35px;
+    background: rgba(255, 255, 255, .8);
+    /* background-color: #ffffff; */
+    margin-top: 470px;
+    /* padding: 35px; */
 }
 
 .content{
@@ -123,7 +128,7 @@ header{
 
 footer{
     text-align: center;
-    color: #ffffff;
+    color: black;
     padding: 20px 0;
     background-color: #767671;
 }
@@ -132,13 +137,13 @@ footer{
     color: #aa8b5f;
     font-size: 50px;
     text-align: center;
-    margin-top: 450px;
+    margin-top: 10px;
 }
 
 #contact-nav{
     list-style: none;
     overflow: hidden;
-    padding-left: 350px;
+    padding-left: 560px;
 }
 
 #contact-nav li{
@@ -195,8 +200,8 @@ footer small{
 }
 
 #index footer{
-    width: 960px;
-    margin: 150px auto 0 auto;
+    /* width: 960px;
+    margin: 150px auto 0 auto; */
     text-align: center;
     background-color: transparent;
 }
@@ -280,11 +285,11 @@ table{
     border-collapse: collapse;
 }
 
-#index #wrap{
+/* #index #wrap{
     background-color: transparent;
     margin-top: 0;
     padding: 0;
-}
+} */
 #index #bold{
     text-shadow: 5px 5px 3px #000000;
 }
@@ -482,12 +487,12 @@ a img:hover{
     font-size: 21px;
 }
 
-#wrap {
+/* #wrap {
     clear: both;
     background-color: #ffffff;
     margin-top: 220px;
     padding: 35px;
-}
+} */
 
 .content{
     width: 960px;

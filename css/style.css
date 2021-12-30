@@ -216,13 +216,13 @@ footer small{
     background-size: cover;
 }
 
-#about {
+/* #about {
     background-image: url(../images/IMG_header_edit2.jpg);
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: fixed;
     background-size: 100% auto;
-}
+} */
 
 #about_new{
     background-image: url(../images/IMG_header_edit2.jpg);
@@ -255,6 +255,26 @@ footer small{
     left: 50%;  */
     display: inline-block;
 	margin-left: 10px;
+}
+
+#blog{
+    background-image: url(../images/IMG_header_edit2.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: 100% auto;
+}
+
+#blog footer{
+    text-align: center;
+    background-color: transparent;
+}
+
+#blog #wrap {
+    clear: both;
+    background-color: #ffffff;
+    margin-top: 220px;
+    padding: 35px;
 }
 
 .main-center{

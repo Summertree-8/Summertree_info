@@ -53,8 +53,8 @@ header{
     max-width: 100%;
     margin-right: auto;
     margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    /* padding-left: 15px;
+    padding-right: 15px; */
 }
 
 .clearfix {
@@ -70,7 +70,7 @@ header{
     margin-top: 20px;
     font-size: 60px;
     font-family: 'Bitter', serif;
-    color: #aa8b5f;
+    /* color: #aa8b5f; */
     text-shadow: 5px 5px 3px #000000;
 }
 
@@ -140,19 +140,26 @@ footer{
     margin-top: 10px;
 }
 
+ul{
+    list-style-type: none;
+	padding-left: 0;
+}
+
 #contact-nav{
+    width: 370px;
+	margin: auto;
+	overflow: hidden;
     text-align: center;
     list-style: none;
-    overflow: hidden;
     /* padding-left: 560px; */
     /* width: 960px; */
     /* margin: 0 auto; */
 }
 
 #contact-nav li{
-    text-align: center;
+    /* text-align: center; */
     float: left;
-    margin: 0px 20px;
+    /* margin: 0px 20px; */
 }
 
 #contact-nav img{
@@ -169,7 +176,7 @@ footer small{
     line-height: 1;
     color: #333333;
     font-family: 'Bitter', serif;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     border: none;
 }
 
@@ -205,7 +212,7 @@ footer small{
 #index footer{
     /* width: 960px;
     margin: 150px auto 0 auto; */
-    text-align: center;
+    /* text-align: center; */
     background-color: transparent;
 }
 
@@ -217,7 +224,7 @@ footer small{
     background-size: cover;
 }
 
-#about_new{
+/* #about_new{
     background-image: url(../images/IMG_header_edit2.jpg);
     background-repeat: no-repeat;
     background-position: center top;
@@ -241,7 +248,7 @@ footer small{
     list-style: none;
     overflow: hidden;
     position: relative;
-}
+} */
 
 #index .Skills{
     list-style: none;
@@ -263,45 +270,54 @@ footer small{
 	margin-left: 10px;
 }
 
-#about_new .Skills svg{
+/* #about_new .Skills svg{
     width: 60px;
     height: 60px;
-}
+} */
 
 #index  .Skills svg{
     width: 60px;
     height: 60px;
 }
 
-#about_new .logo{
+/* #about_new .logo{
     font-size: 70px;
-    /* line-height: 1; */
+    line-height: 1;
     font-family: 'Bitter', serif;
-    /* border: none; */
-}
+    border: none;
+} */
 
-#about_new li{
+/* #about_new li{
     margin-left: 30px;
-} 
+}  */
+
 #index li{
     margin-left: 30px;
 }
 
-#about_new a{
+/* #about_new a{
     margin-left: 30px;
-}
+} */
 
 #index a{
     margin-left: 30px;
 }
 
-#about_new p{
+#blog a{
     margin-left: 30px;
 }
 
-#about_new .content div{
+/* #about_new p{
+    margin-left: 30px;
+} */
+
+/* #about_new .content div{
     margin-top: 50px;
-}
+} */
+
+/* #index .content div{
+    margin-top: 50px;
+} */
 
 #blog{
     background-image: url(../images/IMG_header_edit2.jpg);
@@ -312,6 +328,7 @@ footer small{
 }
 
 #blog footer{
+    margin-top: 30px;
     text-align: center;
     background-color: transparent;
 }
@@ -345,18 +362,18 @@ h2{
     border-left: 7px solid #9cb4a4;
 }
 
-#about .profile-txt{
+/* #about .profile-txt{
     width: 540px;
     float: left;
-}
+} */
 
-#about .profile-txt span{
+/* #about .profile-txt span{
     font-weight: bold;
 }
 
 #about .profile-image{
     float: right;
-}
+} */
 
 .clearfix:after{
     content: "";
@@ -368,7 +385,7 @@ section{
     margin-top: 35px;
 }
 
-#about .career th{
+/* #about .career th{
     width: 240px;
     background-color: #f0f0f0;
     padding: 12px 0;
@@ -379,7 +396,7 @@ section{
     width: 660px;
     padding: 12px 0 12px 40px;
     border: 1px solid #cccccc;
-}
+} */
 
 table{
     border-spacing: 0;
@@ -389,13 +406,13 @@ table{
 #index #bold{
     text-shadow: 5px 5px 3px #000000;
 }
-#portfolio{
+/* #portfolio{
     background-image: url(../images/IMG_header_edit2.jpg);
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: fixed;
     background-size: 100% auto;
-}
+} */
 
 .main{
     width: 700px;
@@ -414,7 +431,7 @@ a img:hover{
     opacity: 0.8;
 }
 
-.sidebar h2{
+/* .sidebar h2{
     margin-bottom: 10px;
 }
 
@@ -425,7 +442,7 @@ a img:hover{
 
 .sidebar ul a{
     color: #333333;
-}
+} */
 
 /* #photograph{
     background-image: url(../images/bg-photograph.jpg);
@@ -552,14 +569,14 @@ a img:hover{
 #contact .form .attention{
     margin: 20px 0 0 200px;
 } */
-.title{
+/* .title{
     float: left;
     margin-top: 20px;
     font-size: 60px;
     font-family: 'Bitter', serif;
     color: #ffffff;
     text-shadow: 5px 5px 3px #000000;
-}
+} */
 
 /* .global-nav{
     float: right;

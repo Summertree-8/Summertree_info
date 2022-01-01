@@ -61,9 +61,9 @@ header{
     display: block;
 }
 
-.logo{
+/* .logo{
     color: #aa8b5f;
-}
+} */
 
 .logo{
     float: left;
@@ -83,24 +83,24 @@ header{
     margin-top: 60px;
 }
 
-.global-nav li{
+/* .global-nav li{
     float: left;
     margin: 0 20px;
     font-size: 20px;
     list-style: none;
     color: #aa8b5f;
-}
+} */
 
 .global-nav li a{
     color: #aa8b5f;
 }
 
-.global-nav li a:hover{
+/* .global-nav li a:hover{
     border-bottom: 2px solid #aa8b5f;
     padding-bottom: 3px;
     text-decoration: none;
     font-family: 'Bitter', serif;
-}
+} */
 
 .borders {
     border-top: 1px solid #aa8b5f;
@@ -128,12 +128,12 @@ footer .borders{
 
 footer{
     text-align: center;
-    color: black;
+    color: #333333;
     padding: 20px 0;
     background-color: #767671;
 }
 
-.introduction{
+#index #intro-title{
     color: #aa8b5f;
     font-size: 50px;
     text-align: center;
@@ -141,15 +141,16 @@ footer{
 }
 
 #contact-nav{
+    text-align: center;
     list-style: none;
     overflow: hidden;
-    padding-left: 560px;
+    /* padding-left: 560px; */
     /* width: 960px; */
     /* margin: 0 auto; */
-    text-align: center;
 }
 
 #contact-nav li{
+    text-align: center;
     float: left;
     margin: 0px 20px;
 }
@@ -166,7 +167,7 @@ footer small{
 #index h1{
     font-size: 100px;
     line-height: 1;
-    color: #ffffff;
+    color: #333333;
     font-family: 'Bitter', serif;
     margin-bottom: 50px;
     border: none;
@@ -178,7 +179,7 @@ footer small{
 
 #index p{
     font-size: 16px;
-    color: #ffffff;
+    color: #333333;;
 }
 
 .btn a{
@@ -216,14 +217,6 @@ footer small{
     background-size: cover;
 }
 
-/* #about {
-    background-image: url(../images/IMG_header_edit2.jpg);
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-attachment: fixed;
-    background-size: 100% auto;
-} */
-
 #about_new{
     background-image: url(../images/IMG_header_edit2.jpg);
     background-repeat: no-repeat;
@@ -250,11 +243,64 @@ footer small{
     position: relative;
 }
 
+#index .Skills{
+    list-style: none;
+    overflow: hidden;
+    position: relative;
+}
+ 
 #about_new .Skills li{
     /* float: left;
     left: 50%;  */
     display: inline-block;
 	margin-left: 10px;
+}
+
+#index .Skills li{
+    /* float: left;
+    left: 50%;  */
+    display: inline-block;
+	margin-left: 10px;
+}
+
+#about_new .Skills svg{
+    width: 60px;
+    height: 60px;
+}
+
+#index  .Skills svg{
+    width: 60px;
+    height: 60px;
+}
+
+#about_new .logo{
+    font-size: 70px;
+    /* line-height: 1; */
+    font-family: 'Bitter', serif;
+    /* border: none; */
+}
+
+#about_new li{
+    margin-left: 30px;
+} 
+#index li{
+    margin-left: 30px;
+}
+
+#about_new a{
+    margin-left: 30px;
+}
+
+#index a{
+    margin-left: 30px;
+}
+
+#about_new p{
+    margin-left: 30px;
+}
+
+#about_new .content div{
+    margin-top: 50px;
 }
 
 #blog{
@@ -340,11 +386,6 @@ table{
     border-collapse: collapse;
 }
 
-/* #index #wrap{
-    background-color: transparent;
-    margin-top: 0;
-    padding: 0;
-} */
 #index #bold{
     text-shadow: 5px 5px 3px #000000;
 }
@@ -386,7 +427,7 @@ a img:hover{
     color: #333333;
 }
 
-#photograph{
+/* #photograph{
     background-image: url(../images/bg-photograph.jpg);
     background-repeat: no-repeat;
     background-position: center top;
@@ -510,7 +551,7 @@ a img:hover{
 
 #contact .form .attention{
     margin: 20px 0 0 200px;
-}
+} */
 .title{
     float: left;
     margin-top: 20px;
@@ -520,10 +561,10 @@ a img:hover{
     text-shadow: 5px 5px 3px #000000;
 }
 
-.global-nav{
+/* .global-nav{
     float: right;
     margin-top: 60px;
-}
+} */
 
 .global-nav li{
     float: left;
@@ -563,13 +604,13 @@ a img:hover{
 footer small{
     font-size: 12px;
 } */
-#profile {
+/* #profile {
     background-image: url(../images/IMG_header_edit2.jpg);
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: fixed;
     background-size: 100% auto;
-}
+} */
 .main-center{
     width: 940px;
     margin: 0 auto;
@@ -591,7 +632,7 @@ h2{
     border-left: 7px solid #9cb4a4;
 }
 
-#profile .profile-txt{
+/* #profile .profile-txt{
     width: 550px;
     float: left;
 }
@@ -603,7 +644,7 @@ h2{
 #profile .profile-image{
     float: right;
     width: 300px;
-}
+} */
 
 .clearfix:after{
     content: "";
@@ -615,7 +656,7 @@ section{
     margin-top: 35px;
 }
 
-#profile .share th{
+/* #profile .share th{
     width: 240px;
     background-color: #f0f0f0;
     padding: 12px 0;
@@ -631,7 +672,7 @@ section{
 table{
     border-spacing: 0;
     border-collapse: collapse;
-}
+} */
 
 @media screen and (max-width:600px){
     /* use when screen size is under 600px */

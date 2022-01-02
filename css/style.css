@@ -253,7 +253,8 @@ footer small{
 #index .Skills{
     list-style: none;
     overflow: hidden;
-    position: relative;
+    /* position: relative;
+    z-index: auto; */
 }
  
 #about_new .Skills li{

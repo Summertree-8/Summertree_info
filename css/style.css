@@ -235,32 +235,6 @@ footer small{
     background-size: cover;
 }
 
-/* #about_new{
-    background-image: url(../images/IMG_header_edit2.jpg);
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-attachment: fixed;
-    background-size: 100% auto;
-}
-
-#about_new footer{
-    text-align: center;
-    background-color: transparent;
-}
-
-#about_new #wrap {
-    clear: both;
-    background-color: #ffffff;
-    margin-top: 220px;
-    padding: 35px;
-}
-
-#about_new .Skills{
-    list-style: none;
-    overflow: hidden;
-    position: relative;
-} */
-
 #index .Skills{
     list-style: none;
     overflow: hidden;

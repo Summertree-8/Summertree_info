@@ -228,7 +228,8 @@ footer small{
 }
 
 #index {
-    background-image: url(../images/bg-index.jpg);
+    /* background-image: url(../images/bg-index.jpg); */
+    background-image: url(https://raw.githubusercontent.com/Summertree-8/Summertree_info/main/images/bg-index.JPG);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
